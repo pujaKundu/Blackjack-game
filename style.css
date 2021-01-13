@@ -1,0 +1,45 @@
+.container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    border: 1px solid black;
+    background-color: beige;
+}
+
+.flex-row-1,
+.flex-row-3 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+
+.flex-row-2 {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.col {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.flex-row-1,
+.flex-row-2 {
+    background-image: url('/bgImg/background.jpg');
+    color: white;
+}
+
+.flex-row-1 {
+    height: 320px;
+}
+
+.table-decor {
+    border: 2px solid black;
+    padding: 8px;
+}
